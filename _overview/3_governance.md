@@ -47,7 +47,7 @@ While federation agreements will vary based on agency requirements, laws, and po
 
 <br>
 
-### <center> Federation Topologies </center>
+### Federation Topologies
 
 To accommodate the wide range of mission and business reasons behind federation, there are a number of different information exchange approaches that an agency might choose. These approaches, referred to as topologies, differ based on the type of relationship that exists with the external parties involved and the level of trust required for the transaction and are driven by the organization’s business model. 
 Three common federation trust topologies are: Point-to-Point, Hub-and-Spoke, and Networked.

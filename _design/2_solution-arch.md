@@ -113,6 +113,7 @@ The enterprise federation architecture is a scalable and robust architecture for
 <br>
 
 * Enabling the agency to maintain control of the federation process, including selection and configuration of CSPs.
+
 <br>
 
 ### Federation Broker Architecture

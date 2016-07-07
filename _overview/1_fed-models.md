@@ -21,6 +21,8 @@ A fourth party, the attribute provider, may be involved in a federation where ad
 
 Federation typically involves externalizing authentication of the credential to the CSP and leveraging assertions to communicate between the CSP and RP. However, in the case of Public Key Infrastructure (PKI) credentials, the RP will commonly perform the authentication action and validate the PKI credential itself due to the path discovery and validation process for PKI. This is referred to as direct-PKI authentication. Both situations are expressed in more detail below.
 
+<br>
+
 ### Federated Authentication by a Credential Service Provider
 
 In federated authentication, the RP will route the user to an external CSP to validate his/her credentials. Once the CSP authenticates the user, the CSP will send a confirmation or an assertion to the RP indicating that the user has successfully been authenticated. The figure below illustrates the process associated with a basic federated authentication transaction between the RP and CSP.
@@ -45,7 +47,7 @@ In addition to the approach shown in the figure above, a user can also navigate 
 
 <br>
 
-### <center> Direct Authentication with a PKI Credential </center>
+### Direct Authentication with a PKI Credential
 
 Direct authentication involves a user that presents a credential directly to an RP for validation. In terms of externally-issued credentials, this authentication model is used for PKI credentials issued by a certificate authority (CA) that is cross-certified with the Federal Bridge Certification Authority (FBCA). A user may possess an externally-issued PKI credential issued by a federal agency (e.g., PIV card) or by an external CSP (e.g., PIV-I card). This process is shown in the figure below.
 

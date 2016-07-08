@@ -22,6 +22,7 @@ Planning for federation requires several actions, including identifying business
 <br>
 
 **What should I consider when designing my federation services?**
+<br>
 
 There are several considerations for designing federation services, including evaluating your existing infrastructure and services, developing a solution architecture, and selecting the optimal architecture solution to fit your needs. Information of these and other design considerations can be found in the [Design Your Federation section.](../federation/design/index/)
 

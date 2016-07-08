@@ -124,6 +124,7 @@ Account linking takes place immediately after provisioning, associating unique a
 </div>
 
 ### Temporary Access Station
+<div markdown="1">
 
 This type of account management scenario does not require provisioning of a permanent RP account. Some applications can provide access to the user without provisioning an account. Other applications, however, may need to provision a temporary account for the user, which will be removed when the user terminates his/her session with the application. The key difference between the temporary access scenario and other scenarios is that the user’s information does not persist from session to session for the user. 
 

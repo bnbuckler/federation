@@ -17,6 +17,8 @@ For additional context and a more educational description of Federation and ICAM
 <br>
 
 **What should I consider when planning to federate?**
+<br>
+
 Planning for federation requires several actions, including identifying business considerations, understanding the Relying Party environment, determining applicability to security and privacy controls, determining acceptable credentials, and partnering with one or more Identity Providers. You will find more information on each of these topics in the [Plan Your Federation section.](../federation/plan/index/)
 
 <br>

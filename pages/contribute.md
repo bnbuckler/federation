@@ -2,7 +2,7 @@
 layout: page
 title: Contribute
 permalink: /contribute/
----t
+---
 This site is for the collaborative development of the Federation Programmatic Playbook. 
 
 ### How to Contribute

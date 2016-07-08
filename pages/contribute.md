@@ -3,7 +3,7 @@ layout: page
 title: Contribute
 permalink: /contribute/
 ---
-This site is for the collaborative development of the Federal Identity, Credential and Access Management PIV Enablement Playbook. 
+This site is for the collaborative development of the Federation Programmatic Playbook. 
 
 ### How to Contribute
 

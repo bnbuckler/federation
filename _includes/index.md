@@ -12,7 +12,7 @@ The content in this guide heavily leverages and replaces guidance that existed i
 
 The FICAM Architecture defines Federation as “the ability of one organization to accept another organization’s work”. [The FICAM Architecture](http://gsa.github.io/ficam-arch/services/federation/) defines four federation services in the Services Framework: Attribute Exchange, Credential Translation, Credential Bridging, and Policy Alignment. 
 
-For additional context and a more educational description of Federation and ICAM, please visit the [Overview of Federation section](../federation/overview/index/) section of this playbook. This overview includes information about implementation models, an explanation of the Federal Trust Framework, and information on federation governance. 
+For additional context and a more educational description of Federation and ICAM, please visit the [Overview of Federation section](../federation/overview/index/) of this playbook. This overview includes information about implementation models, an explanation of the Federal Trust Framework, and information on federation governance. 
 
 <br>
 
@@ -30,7 +30,7 @@ There are several considerations for designing federation services, including ev
 **Where would I found Federation use case examples?**)
 <br>
 
-The [FICAM Architecture](http:///gsa.github.io/ficam-arch/services/federation/) currently definses two graphical, high-level use cases for federation services:
+The [FICAM Architecture](http:///gsa.github.io/ficam-arch/services/federation/) currently defines two graphical, high-level use cases for federation services:
 <br>
 
 * [Exchange attributes in a Federation](http://gsa.github.io/ficam-arch/usecases/41_federate_exchange_attributes/) 
@@ -41,7 +41,7 @@ The [FICAM Architecture](http:///gsa.github.io/ficam-arch/services/federation/) 
 **How do I implement federation services?**
 <br>
 
-Some initial information about federation implementation can be found in the [Implement Your Federation section](../federation/implement/index/), including guidance on Credential Service Provider integration and account management. The Credential Service Provider integration section includes information on selecting a Credential Service Provider, establishing trust in a federation, and user interface. The account management section includes information regarding account management scenarios and patterns, account linking, and account maintenance. 
+Some initial information about federation implementation can be found in the [Implement Your Federation section](../federation/implement/index/), including guidance on Credential Service Provider integration and account management. [The Credential Service Provider integration](../federation/implement/1_csp-integrate/) section includes information on selecting a Credential Service Provider, establishing trust in a federation, and user interface. The (Account Management)[../federation/implement/2_acct-mgmt/] section includes information regarding account management scenarios and patterns, account linking, and account maintenance. 
 
 To learn more about other FICAM topics, visit the [Playbooks Homepage.](https://bnbuckler.github.io/ficam-guides/)
 

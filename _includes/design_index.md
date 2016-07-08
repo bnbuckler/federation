@@ -10,17 +10,12 @@ The elements required to implement federation varies from one agency to another.
 This section discusses the possible states of an agency’s ICAM infrastructure and how the infrastructure and services can be leveraged to provide a basis for federation.
 <br>
 
-* [Develop the Solution Architecture.](../2_solution-arch)
+* [Select and Develop the Optimal Solution Architecture.](../2_solution-arch)
 <br>
 
 This section details three reference architectures that can be used when accepting third-party credentials. It also provides a list of considerations around each approach.
 <br>
 
-* [Select the Optimal Architecture](../3_select-arch)
-<br>
-
-This section discusses considerations that can be leveraged to help an agency choose its optimal architecture approach.
-<br>
 
 * [Select a Federation Topology.](../4_add-design)
 

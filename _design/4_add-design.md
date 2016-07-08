@@ -6,7 +6,7 @@ permalink: design/4_add-design/
 ---
 -------------------------------------------------------
 
-There are some additional design characteristics that an agency should consider when desiging their federation system. This additional considerations include:
+There are some additional design characteristics that an agency should consider when designing their federation system. This additional considerations include:
 
 **Defining access control requirements**
 <br>

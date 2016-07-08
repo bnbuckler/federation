@@ -75,7 +75,10 @@ The remaining three scenarios involve an individual user, in this case a non-fed
 
 <br>
 
+<div id="accordion" markdown="1">
+
 ### Relationship with an Individual, Known User
+<div markdown="1">
 
 This type of account management scenario requires that the user have a pre-existing relationship with the RP application and/or agency. That is, the user has interacted with the agency and the agency has a record of the user and certain attributes about the user. An example of this scenario is an agency that provides grants to a user. When the user requests a grant, he/she will provide information about himself/herself to the agency. This could result in the creation of an account at the RP application or the storage of the user’s information in a repository within the agency. In either of these cases, the agency retains the information about the user requesting a grant. Later when the user attempts to access the RP with a third-party credential, the RP can use this information to assist in account linking.
 
@@ -91,9 +94,10 @@ The chart below provides a summary of the known user account management activiti
 | **Account Linking** | Upon the first attmept to access the application, the user’s credential is associated with his/her RP account. Additional credentials can be associated with an RP account at any time, if the application employs the *single account multiple credentials* pattern. |
 | **Account Maintenance** | The implementation of these activities is at the discretion of the RP. |
 
-<br>
+</div>
 
 ### Relationship with an Individual, Unknown User
+<div markdown="1">
 
 This type of account management scenario does not require the RP account to be provisioned before the user’s initial visit to the application with his/her third-party credential. An example of this scenario is a user that attempts to access the application without being known by the agency. The RP application will receive an assertion from a CSP about the user. At this time, the RP will create a “shadow account”, which is an RP account that is created for the purpose of maintaining a persistent association with an external user. The unique identifier within the assertion is linked to the shadow account. 
 
@@ -117,7 +121,7 @@ Account linking takes place immediately after provisioning, associating unique a
 | **Account Linking** | Immediately after provisioning occurs during the user’s first access attempt, the user’s credential is associated with his/her RP account. Additional credentials can be associated with an RP account at any time if the application employs the *single account multiple credentials pattern.* |
 | **Account Maintenance** | The implementation of these activities is at the discretion of the RP. |
 
-<br>
+</div>
 
 ### Temporary Access Station
 
@@ -131,7 +135,8 @@ This type of account management scenario does not require provisioning of a perm
 | **Account Linking** | N/A |
 | **Account Maintenance** | The implementation of these activities is at the discretion of the RP. |
 
-<br>
+</div>
+</div>
 
 ### Account Linking
 

@@ -1,6 +1,6 @@
 ---
 layout: page_collection
-title: Federation Governance
+title: Federation Governance and Topologies
 collection: overview
 permalink: overview/3_governance/
 ---
@@ -22,7 +22,7 @@ In the context of federation, governance between Identity Providers and relying 
 While federation agreements will vary based on agency requirements, laws, and policies, the Identity, Credential and Access Management Subcommittee (ICAMSC) has developed a Federation Agreement Checklist to serve as a starting point for agencies to use when developing federation agreements for information/attribute sharing. This section provides considerations that an agency should take into account when developing federation governance, including: 
 <br>
 
-* **Member Responsibilities.** Federation governance should detail the procedural process lparticipants must follow in order to become and remain members in the federation. Some examples of what should be covered in regards to membership responsibilities include the application and approval process, how suspensions and revocations are handled, the fees and costs for being a federation member, how disputes will be resolved, and proactively taking steps to raise risks as they appear. 
+* **Member Responsibilities.** Federation governance should detail the procedural process participants must follow in order to become and remain members in the federation. Some examples of what should be covered in regards to membership responsibilities include the application and approval process, how suspensions and revocations are handled, the fees and costs for being a federation member, how disputes will be resolved, and proactively taking steps to raise risks as they appear. 
 <br>
 
 * **Governance Board.** Federation governance should define the membership and roles and responsibilities of the Governance Board. This is the executive-level body with representation from primary stakeholders that guides the federation and is the final body to make decisions for the federation. This group is typically responsible for approval of any modifications and/or recommendations to guidelines, standards, or documents of the federation, as well as management and resolution of risks.
@@ -43,7 +43,7 @@ While federation agreements will vary based on agency requirements, laws, and po
 * **Security and Privacy.** Federation governance should describe the technical requirements for how security will be maintained within the federation. Some examples include the protections for personally identifiable data collected and maintained by the federation, personnel security processes for federation administrative staff, physical security for sites hosting federation services, and processes and tools used to detect failures and intrusion attempts and to mediate and recover from intrusions.
 <br>
 
-•	Integration and Testing. Federation governance should describe the requirements for integrating and testing the technology that impacts the federation, such as identity management provisioning systems, authentication servers, user log-on client software, commercial products, schemes or protocols, applications that consume credentials, and auditing, alerting and logging infrastructure.
+* **Integration and Testing.** Federation governance should describe the requirements for integrating and testing the technology that impacts the federation, such as identity management provisioning systems, authentication servers, user log-on client software, commercial products, schemes or protocols, applications that consume credentials, and auditing, alerting and logging infrastructure.
 
 <br>
 

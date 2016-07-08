@@ -32,7 +32,7 @@ When selecting one or more Identity Providers with which to interact, an agency 
 * Consider all Identity Providers for a particular credential type
 <br>
 
-External Identity Providers are assessed and certified by the approved TFPs. Agencies should refer to the Federal Government’s [ICAM website](https://www.idmanagement.gov/IDM/s/article_content_old?tag=a0Gt0000000Sfwe) for an up-to-date list of approved Identity Providers.
+External Identity Providers are assessed and certified by the approved TFPs. Agencies should refer to the TFS Program’s approved [Identity Services Provider List](https://www.idmanagement.gov/IDM/s/article_content_old?tag=a0Gt0000000Sfwe) for an up-to-date list of approved Identity Providers.
 
 
 

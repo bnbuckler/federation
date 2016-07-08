@@ -1,6 +1,6 @@
 ---
 layout: page_collection
-title: Develop the Solution Architecture
+title: Select and Develop the Optimal Solution Architecture
 collection: design
 permalink: design/2_solution-arch/
 ---
@@ -15,7 +15,21 @@ $(function() {
 </script>
 ---------------------------------------------------------
 
-An agency should develop the appropriate federation solution architecture based on the requirements, number of applications, and infrastructure in place. Solution architectures for accepting third-party credentials include stand-alone, enterprise, and federation broker. Each of these architectures has a common set of requirements (i.e., the ability to integrate with a CSP, parse an assertion, and link RP accounts); however, there are variations to how those requirements are implemented. Within this section, each of these solution architectures are discussed in further detail including a high-level overview, key considerations, and the requirements associated with each model.
+In order for an agency to select a solution architecture, it is important to understand which architecture is most applicable to its situation. It is recommended that an agency use the information collected from the assessments during the agency's planning period to determine its optimal solution architecture. 
+
+The chart below provides guidance to the applicability of each architectural solution. Within the chart, the enterprise and federation broker architecture solutions share certain situations where either one may be appropriate. These approaches both support streamlined integration of multiple applications but differ in the amount of control the agency keeps in implementing and managing the federation solution. An agency should consider each of its requirements to determine the best architectural approach.
+
+<br>
+
+| <center> Recommended Approach </center> | <center> Situations </center> |
+|:----------------------------------------:|------------------------------|
+| **Stand-Alone** | • An agency has a small number of applications that require the acceptance of third-party credentials. <br><br> • An agency wishes to pilot the acceptance of third-party credentials on a small scale before deploying it for the entire agency. |
+| **Enterprise** | • An agency wishes to maintain control of which Credential Service Providers (CSPs) are integrated and the connection to those CSPs. <br><br> • An agency has many applications that are required to accept third-party credentials. <br><br>• An agency has existing agency-wide infrastructure that can be modified/augmented to accept third-party credentials. |
+| **Federation Broker** | •	An agency has many applications that are required to accept third-party credentials. <br><br> • An agency has existing agency-wide infrastructure that can be modified/augmented to accept third-party credentials. <br><br> •	An agency wishes to accept third-party credentials from a large user base that spans many CSPs. <br><br> • An agency with privacy requirements to accept externally-issued credentials without knowing to which CSP a user authenticated. |
+
+<br>
+
+Within this section, each of these solution architectures are discussed in further detail including a high-level overview, key considerations, and the requirements associated with each model.
 
 <br>
 
@@ -40,7 +54,7 @@ The chart below provides an overview of how the architecture requirements for a 
 | **CSP Discovery Page** | <center> Application </center> | <center> Once per application </center> |
 | **CSP Integration** | <center> Application </center> | <center> Once per CSP/application combination </center> |
 | **Assertion Parsing** | <center> Application </center> | <center> Once per CSP/application combination </center> |
-| **Assertion Transalation** | <center> N/A </center> | <center> N/A </center> |
+| **Assertion Translation** | <center> N/A </center> | <center> N/A </center> |
 | **Authorization Enforcement** | <center> Application </center> | <center> Once per application </center> |
 | **Account Provisioning and Linking** | <center> Application </center> | <center> Once per application </center> |
 
@@ -63,7 +77,7 @@ This architecture approach does not provide scalability for agencies with many a
 * Requiring minimal implementation effort when an agency has a limited number of applications.
 <br>
 
-	o Stand-Alone Application Deployment may not be the optimal solution if an agency has more than several applications it wishes to enable the acceptance of third-party credentials. The initial expenditure and maintenance cost of this approach increases in a linear fashion with each application that is federation enabled. For an agency that will enable more than three or four applications, another approach is recommended to reduce overall cost.
+	* Stand-Alone Application Deployment may not be the optimal solution if an agency has more than several applications it wishes to enable the acceptance of third-party credentials. The initial expenditure and maintenance cost of this approach increases in a linear fashion with each application that is federation enabled. For an agency that will enable more than three or four applications, another approach is recommended to reduce overall cost.
 
 <br>
 
@@ -88,7 +102,7 @@ The chart below provides an overview of how the architecture requirements for an
 | **CSP Discovery Page** | <center> Access Management Server </center> | Once |
 | **CSP Integration** | <center> Federation Server </center> | Once per CSP |
 | **Assertion Parsing** | <center> Federation Server </center> | Once |
-| **Assertion Transalation** | <center> Federation Server </center> | Once |
+| **Assertion Translation** | <center> Federation Server </center> | Once |
 | **Authorization Enforcement** | <center> Access Management Server** </center> | Once |
 | **Account Provisioning and Linking** | <center> Federation Server*** </center> | Once per application |
 
@@ -137,7 +151,7 @@ The chart below provides an overview of how the architecture requirements for a 
 | **CSP Discovery Page** | <center> Access Management Server </center> | Once |
 | **CSP Integration** | <center> Cloud Provider </center> | Once per CSP |
 | **Assertion Parsing** | <center> Federation Server </center> | Once |
-| **Assertion Transalation** | <center> Federation Server </center> | Once |
+| **Assertion Translation** | <center> Federation Server </center> | Once |
 | **Authorization Enforcement** | <center> Access Management Server </center> | Once |
 | **Account Provisioning and Linking** | <center> Application </center> | Once per application |
 

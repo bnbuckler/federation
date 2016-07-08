@@ -139,6 +139,8 @@ This type of account management scenario does not require provisioning of a perm
 </div>
 </div>
 
+<br>
+
 ### Account Linking
 
 This section provides a more detailed discussion around account linking, including account linking patterns, methods, and issue resolution. Account linking applies to the known and unknown user scenarios described in the previous section. In those scenarios, the RP links the user’s CSP credential to the RP account. The user should be provided adequate notice that the RP is linking his/her account and the RP should provide the user with the option to opt out of linking the credential to the RP account. 

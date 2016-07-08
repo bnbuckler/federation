@@ -1,4 +1,4 @@
-# Implement Federated Identity Capability
+# Federation Programmatic Playbook
 ----------------------------------------------------------------
 
 Welcome to the Federation Programmatic Playbook, where you will find information to support general knowledge around the topic of federation, as well as guidance to support your planning and design efforts for identity and credential federation implementation. This playbook is intended for ICAM Program Managers and other business owners who may be looking to understand the topic of Federation better and various planning and design items they should consider before beginning solution design and implementation. This playbook also contains guidance for implementers and engineers who are looking for guidance around the technical implementation of federation at their agencies.

@@ -41,7 +41,7 @@ The [FICAM Architecture](http:///gsa.github.io/ficam-arch/services/federation/) 
 **How do I implement federation services?**
 <br>
 
-Some initial information about federation implementation can be found in the [Implement Your Federation section](../federation/implement/index/), including guidance on Credential Service Provider integration and account management. [The Credential Service Provider integration](../federation/implement/1_csp-integrate/) section includes information on selecting a Credential Service Provider, establishing trust in a federation, and user interface. The (Account Management)[../federation/implement/2_acct-mgmt/] section includes information regarding account management scenarios and patterns, account linking, and account maintenance. 
+Some initial information about federation implementation can be found in the [Implement Your Federation section](../federation/implement/index/), including guidance on Credential Service Provider integration and account management. [The Credential Service Provider integration](../federation/implement/1_csp-integrate/) section includes information on selecting a Credential Service Provider, establishing trust in a federation, and user interface. The (Account Management)[../2_acct-mgmt/] section includes information regarding account management scenarios and patterns, account linking, and account maintenance. 
 
 To learn more about other FICAM topics, visit the [Playbooks Homepage.](https://bnbuckler.github.io/ficam-guides/)
 

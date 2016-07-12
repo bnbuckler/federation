@@ -5,7 +5,7 @@ email: icam@gsa.gov
 author:
     name: FICAM
 description: Federation Guidance
-baseurl: '/federation'
+baseurl: '/ficam-federation'
 #url: "http://yourdomain.com" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
 github_username:  lachellel

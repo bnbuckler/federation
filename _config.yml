@@ -4,7 +4,7 @@ name: Federation Playbook
 email: icam@gsa.gov
 author:
     name: FICAM
-description: Identity Guidance
+description: Federation Guidance
 baseurl: '/ficam-federation'
 #url: "http://yourdomain.com" # the base hostname & protocol for your site
 #twitter_username: jekyllrb

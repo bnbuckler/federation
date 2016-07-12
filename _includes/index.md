@@ -30,7 +30,7 @@ There are several considerations for designing federation services, including ev
 
 <br>
 
-**Where would I found Federation use case examples?**)
+**Where would I find Federation use case examples?**)
 <br>
 
 The [FICAM Architecture](http:///gsa.github.io/ficam-arch/services/federation/) currently defines two graphical, high-level use cases for federation services:
